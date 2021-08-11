@@ -6,7 +6,7 @@ public class AutoboxingExperiment {
         StopWatch watch = new StopWatch();
         watch.start();
         boolean b;
-        for(int i=0 ; i<times ; i++) {
+        for(double i=0 ; i<times ; i++) {
             b = true;
         }
         watch.stop();
@@ -17,7 +17,7 @@ public class AutoboxingExperiment {
         StopWatch watch = new StopWatch();
         watch.start();
         Boolean b;
-        for(int i=0 ; i<times ; i++) {
+        for(double i=0 ; i<times ; i++) {
             b = true;
         }
         watch.stop();
@@ -28,7 +28,7 @@ public class AutoboxingExperiment {
         StopWatch watch = new StopWatch();
         watch.start();
         Boolean b;
-        for(int i=0 ; i<times ; i++) {
+        for(double i=0 ; i<times ; i++) {
             b = Boolean.TRUE;
         }
         watch.stop();
